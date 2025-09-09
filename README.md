@@ -1,4 +1,4 @@
-# 🎓 StreamChat – Frontend
+# 💬 StreamChat – Frontend
 
 ## 🟦 MERN Project – React + Socket.io
 
@@ -17,7 +17,7 @@ The frontend of **StreamChat** is built using React and styled with modern UI pr
 
 ---
 
-## 📸 Tech Stack
+## 🧑🏻‍💻 Tech Stack
 
 - **⚛️ React.js**: Component-based UI
 - **🎨 Tailwind CSS**: Styling (update if you use something else)
