@@ -126,9 +126,9 @@ const AuthState = (props) => {
         if (!authUser || socket?.connected) return;
 
         const socketServer = io(server, {
-            query: {
-                userId: authUser._id,
-            },
+            query: { userId: authUser?._id },
+            withCredentials: true,
+            transports: ["websocket"] // optional, but helps on Render
         });
         socketServer.connect();
         setSocket(socketServer);
@@ -141,6 +141,8 @@ const AuthState = (props) => {
 
     const disconnectSocket = async () => {
         if (socket?.connected) {
+            socket.io.opts.reconnection = false; // stop auto-reconnect
+            socket.removeAllListeners();
             socket.disconnect();
             setSocket(null);
         }
