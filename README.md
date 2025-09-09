@@ -1,12 +1,30 @@
-# React + Vite
+# 🎓 StreamChat – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🟦 MERN Project – React + Socket.io
 
-Currently, two official plugins are available:
+The frontend of **StreamChat** is built using React and styled with modern UI practices for a smooth user experience. It connects to the backend using Socket.io for real-time conversations, ensuring instant message delivery without the need for page refresh.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 **Live Demo**: [streamchating.netlify.app](https://streamchating.netlify.app)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 💬 Real-time chat powered by Socket.io
+- 👤 User authentication (login & register)
+- 🟢 Online/offline user status
+- 🎨 Responsive UI for all devices
+
+---
+
+## 📸 Tech Stack
+
+- **⚛️ React.js**: Component-based UI
+- **🎨 Tailwind CSS**: Styling (update if you use something else)
+- **🔄 Fetch**: API requests
+- **🔌 Socket.io Client**: Real-time messaging
+- **Routing**: React Router DOM  
+- **State Management**: Context API
+- **Deployment**: Netlify
+
+---
